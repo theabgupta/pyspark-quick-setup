@@ -1,0 +1,11 @@
+{
+    "job_assignment": {
+        "test": {
+            "customer_path": "test_data/customers/*.csv",
+            "product_path": "test_data/products/*.csv",
+            "transaction_path": "test_data/transactions/*.json",
+            "output" : "../loaded_data/"
+        }
+    },
+    "other_etl_job": {}
+}

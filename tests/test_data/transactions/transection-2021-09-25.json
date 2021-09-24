@@ -1,0 +1,14 @@
+{
+    "customer_id": "C1",
+    "basket": [
+        {
+            "product_id": "P1",
+            "price": 46
+        },
+        {
+            "product_id": "P2",
+            "price": 45
+        }
+    ],
+    "date_of_purchase": "2020-08-1 11:01:40.944323"
+}

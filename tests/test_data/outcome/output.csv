@@ -1,0 +1,3 @@
+customer_id,loyalty_score,product_id,product_category,purchase_count_per_product_id
+C1,10,P1,food,1
+C1,10,P2,beverages,1

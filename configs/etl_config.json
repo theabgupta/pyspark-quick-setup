@@ -1,0 +1,21 @@
+{
+    "job_assignment": {
+        "dev": {
+            "customer_path": "tests/test_data/customers/*.csv",
+            "product_path": "tests/test_data/products/*.csv",
+            "transaction_path": "tests/test_data/transactions/*.json",
+            "output" : "loaded_data/"
+        },
+        "qa": {
+            "customer_path": "s3://path/customer/*.csv",
+            "product_path": "s3://path/product/*.csv",
+            "transaction_path": "s3://path/transaction/*.csv"
+        },
+        "prod": {
+            "customer_path": "s3://path/prod/customer/*.csv",
+            "product_path": "s3://path/prod/product/*.csv",
+            "transaction_path": "s3://path/prod/transaction/*.csv"
+        }
+    },
+    "other_etl_job": {}
+}
